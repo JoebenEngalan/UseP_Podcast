@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit9b213fcabc55856e8ecc6b628546f173
+class ComposerStaticInit7f514353bda301ba648b4690fade12de
 {
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
@@ -37,6 +37,7 @@ class ComposerStaticInit9b213fcabc55856e8ecc6b628546f173
         'SeriouslySimplePodcasting\\Integrations\\Elementor\\Widgets\\Elementor_Select_Episode_Widget' => __DIR__ . '/../..' . '/php/classes/integrations/elementor/widgets/elementor-select-episode-widget.php',
         'SeriouslySimplePodcasting\\Integrations\\Elementor\\Widgets\\Elementor_Subscribe_Buttons_Widget' => __DIR__ . '/../..' . '/php/classes/integrations/elementor/widgets/elementor-subscribe-buttons-widget.php',
         'SeriouslySimplePodcasting\\Renderers\\Renderer' => __DIR__ . '/../..' . '/php/classes/renderers/class-renderer.php',
+        'SeriouslySimplePodcasting\\Repositories\\Episode_Repository' => __DIR__ . '/../..' . '/php/classes/repositories/class-episode-repository.php',
         'SeriouslySimplePodcasting\\Rest\\Episodes_Controller' => __DIR__ . '/../..' . '/php/classes/rest/class-episodes-controller.php',
         'SeriouslySimplePodcasting\\Rest\\Rest_Api_Controller' => __DIR__ . '/../..' . '/php/classes/rest/class-rest-api-controller.php',
         'SeriouslySimplePodcasting\\ShortCodes\\Player' => __DIR__ . '/../..' . '/php/classes/shortcodes/class-player.php',
@@ -52,7 +53,7 @@ class ComposerStaticInit9b213fcabc55856e8ecc6b628546f173
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->classMap = ComposerStaticInit9b213fcabc55856e8ecc6b628546f173::$classMap;
+            $loader->classMap = ComposerStaticInit7f514353bda301ba648b4690fade12de::$classMap;
 
         }, null, ClassLoader::class);
     }

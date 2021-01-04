@@ -58,7 +58,15 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
   color: #5e0606;
 }
 
-
 h2:first-child {
   margin-right: -10px;
+}
+
+.site-info a {
+  color: #ffffff;
+}
+
+.site-info {
+  background-color: #5e0606;
+  color: white;
 }

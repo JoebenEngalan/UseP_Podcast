@@ -139,8 +139,12 @@ class Options_Handler {
 	public function get_subscribe_urls( $episode_id, $context ) {
 		$terms             = get_the_terms( $episode_id, 'series' );
 		$subscribe_options = get_option( 'ss_podcasting_subscribe_options', array() );
+		$subscribe_array   = array();
 
-		$subscribe_array = array();
+		if ( ! is_array( $subscribe_options ) ) {
+			return apply_filters( 'ssp_episode_subscribe_details', $subscribe_array, $episode_id, $context );
+		}
+
 		foreach ( $subscribe_options as $option_key ) {
 			if ( ! isset( $this->available_subscribe_options[ $option_key ] ) ) {
 				continue;
@@ -153,6 +157,7 @@ class Options_Handler {
 			}
 			$icon                           = str_replace( '_', '-', $option_key );
 			$subscribe_array[ $option_key ] = array(
+				'key'   => $option_key,
 				'url'   => $url,
 				'label' => $this->available_subscribe_options[ $option_key ],
 				'icon'  => $icon . '.png',

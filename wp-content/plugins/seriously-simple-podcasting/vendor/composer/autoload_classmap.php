@@ -36,6 +36,7 @@ return array(
     'SeriouslySimplePodcasting\\Integrations\\Elementor\\Widgets\\Elementor_Select_Episode_Widget' => $baseDir . '/php/classes/integrations/elementor/widgets/elementor-select-episode-widget.php',
     'SeriouslySimplePodcasting\\Integrations\\Elementor\\Widgets\\Elementor_Subscribe_Buttons_Widget' => $baseDir . '/php/classes/integrations/elementor/widgets/elementor-subscribe-buttons-widget.php',
     'SeriouslySimplePodcasting\\Renderers\\Renderer' => $baseDir . '/php/classes/renderers/class-renderer.php',
+    'SeriouslySimplePodcasting\\Repositories\\Episode_Repository' => $baseDir . '/php/classes/repositories/class-episode-repository.php',
     'SeriouslySimplePodcasting\\Rest\\Episodes_Controller' => $baseDir . '/php/classes/rest/class-episodes-controller.php',
     'SeriouslySimplePodcasting\\Rest\\Rest_Api_Controller' => $baseDir . '/php/classes/rest/class-rest-api-controller.php',
     'SeriouslySimplePodcasting\\ShortCodes\\Player' => $baseDir . '/php/classes/shortcodes/class-player.php',
