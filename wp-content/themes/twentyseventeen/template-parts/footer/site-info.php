@@ -18,7 +18,7 @@
 	<a href="<?php echo esc_url( __( 'https://github.com/JoebenEngalan/UseP_Podcast', 'twentyseventeen' ) ); ?>" class="imprint">
 		<?php
 			/* translators: %s: WordPress */
-		printf( __( 'Edited by %s', 'twentyseventeen' ), 'OJT2 group Engalan, Arbizo, Balansag, Peñanueva and Carpesano' );
+		printf( __( 'Edited by %s', 'twentyseventeen' ), 'OJT2 Group Engalan, Arbizo, Balansag, Peñanueva and Carpesano' );
 		?>
 	</a>
 </div><!-- .site-info -->
