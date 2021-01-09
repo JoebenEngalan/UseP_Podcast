@@ -1,5 +1,5 @@
 # UseP_Podcast
-**Contributing editors:**
+**Contributing Editors:**
 - Joeben P. Engalan
 - Arvin Garret A. Arbizo
 - Kweni Mari Peñanueva
