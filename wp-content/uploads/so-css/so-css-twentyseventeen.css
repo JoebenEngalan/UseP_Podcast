@@ -62,8 +62,8 @@ h2:first-child {
   margin-right: -10px;
 }
 
-.site-info a {
-  color: #ffffff;
+.site-info.a {
+  color: white;
 }
 
 .site-info {
