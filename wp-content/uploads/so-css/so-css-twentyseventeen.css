@@ -20,7 +20,11 @@
 
 h2:first-child {
   margin-right: -10px;
-  color: #ffffff;
+  color: #731919;
+}
+
+.colors-custom h2:widget {
+  margin-right: -10px;
 }
 
 .site-content {
@@ -50,8 +54,11 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 }
 
 .colors-custom h2:first-child {
-    margin-right: -10px;
-    color: #ffffff;
+  margin-right: -10px;
+}
+
+.colors-custom h2.widget-title {
+  color: #ffffff;
 }
 
 .colors-custom .h5,
@@ -74,5 +81,3 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 .wp-playlist-current-item .wp-playlist-item-artist {
   color: #800000;
 }
-
-/* Custom CSS */
