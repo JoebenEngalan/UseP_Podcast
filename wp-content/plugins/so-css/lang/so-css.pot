@@ -1,4 +1,4 @@
-# Copyright (C) 2020 so-css
+# Copyright (C) 2021 so-css
 # This file is distributed under the same license as the so-css package.
 msgid ""
 msgstr ""
@@ -16,7 +16,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: so-css.php:3, so-css.php:434
+#: so-css.php:3, so-css.php:447
 msgid "SiteOrigin CSS"
 msgstr ""
 
@@ -48,63 +48,63 @@ msgstr ""
 msgid "These changes will persist across updates so it's best to make all your changes here. "
 msgstr ""
 
-#: so-css.php:385
+#: so-css.php:363
 msgid "Unchanged"
 msgstr ""
 
-#: so-css.php:386
+#: so-css.php:364
 msgid "Select"
 msgstr ""
 
-#: so-css.php:387
+#: so-css.php:365
 msgid "Select Image"
 msgstr ""
 
-#: so-css.php:388
+#: so-css.php:366
 msgid "Are you sure you want to leave without saving?"
 msgstr ""
 
-#: so-css.php:422
+#: so-css.php:435
 msgid "CSS Editor"
 msgstr ""
 
-#: so-css.php:423
+#: so-css.php:436
 msgid "Support"
 msgstr ""
 
-#: so-css.php:437
+#: so-css.php:450
 msgid "Changes apply to %s and its child themes"
 msgstr ""
 
-#: so-css.php:438
+#: so-css.php:451
 msgid "Save CSS"
 msgstr ""
 
-#: so-css.php:445
+#: so-css.php:458
 msgid "Editing CSS for: %s"
 msgstr ""
 
-#: so-css.php:450
+#: so-css.php:463
 msgid "Changes apply to the %s %s when the current theme is %s or its child themes"
 msgstr ""
 
-#: so-css.php:457
+#: so-css.php:470
 msgid "Save %s CSS"
 msgstr ""
 
-#: so-css.php:470
+#: so-css.php:483
 msgid "Revert to this revision"
 msgstr ""
 
-#: so-css.php:579
+#: so-css.php:592
 msgid "%d chars"
 msgstr ""
 
-#: so-css.php:579
+#: so-css.php:592
 msgid "Latest"
 msgstr ""
 
-#: so-css.php:585
+#: so-css.php:598
 msgid "No revisions yet."
 msgstr ""
 

@@ -1,0 +1,72 @@
+.site-title a {
+  text-transform: none;
+}
+
+.site-footer {
+  background-color: #5e0606;
+  color: white;
+}
+
+.colors-custom h2.widget-title {
+  color: white;
+}
+
+.page .panel-content .entry-title,
+.page-title,
+body.page:not(.twentyseventeen-front-page) .entry-title {
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.site-content {
+  padding: 2em 0 0;
+}
+
+.colors-custom button,
+.colors-custom input[type="button"],
+.colors-custom input[type="submit"],
+.colors-custom .entry-footer .edit-link a.post-edit-link {
+  background-color: #5e0606;
+}
+
+.page.page-one-column .entry-header,
+.twentyseventeen-front-page.page-one-column .entry-header,
+.archive.page-one-column:not(.has-sidebar) .page-header {
+  margin-bottom: 3em;
+}
+
+.colors-custom h5,
+.colors-custom .entry-meta,
+.colors-custom .entry-meta a,
+.colors-custom.blog .entry-meta a.post-edit-link,
+.colors-custom.archive .entry-meta a.post-edit-link,
+.colors-custom.search .entry-meta a.post-edit-link,
+.colors-custom .nav-subtitle,
+.colors-custom .comment-metadata,
+.colors-custom .comment-metadata a,
+.colors-custom .no-comments,
+.colors-custom .comment-awaiting-moderation,
+.colors-custom .page-numbers.current,
+.colors-custom .page-links .page-number,
+.colors-custom .navigation-top .current-menu-item > a,
+.colors-custom .navigation-top .current_page_item > a,
+.colors-custom .main-navigation a:hover,
+.colors-custom .site-content .wp-playlist-light 
+.wp-playlist-current-item .wp-playlist-item-artist {
+  color: #5e0606;
+}
+
+h2:first-child {
+  margin-right: -10px;
+}
+
+.site-info.a {
+  color: white;
+}
+
+.site-info {
+  background-color: #5e0606;
+  color: white;
+}

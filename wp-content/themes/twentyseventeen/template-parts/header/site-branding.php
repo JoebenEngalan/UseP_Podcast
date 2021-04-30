@@ -26,7 +26,8 @@
 
 			if ( $description || is_customize_preview() ) :
 				?>
-				<p class="site-description"><?php echo $description; ?></p>
+				<p class="site-description"><?php echo $description; ?> <br> The Official Podcast of USeP SPJRD </p>
+			<! -- if you want to add new  -->
 			<?php endif; ?>
 		</div><!-- .site-branding-text -->
 

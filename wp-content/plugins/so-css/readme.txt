@@ -1,9 +1,9 @@
 === SiteOrigin CSS ===
 Tags: css, design, edit, customize
 Requires at least: 3.9
-Tested up to: 5.6
-Stable tag: 1.2.12
-Build time: 2020-12-12T15:10:19+02:00
+Tested up to: 5.7
+Stable tag: 1.2.14
+Build time: 2021-04-26T16:26:12+02:00
 License: GPLv2 or later
 Contributors: gpriday
 Donate link: https://siteorigin.com/downloads/premium/
@@ -64,6 +64,17 @@ We're actively developing SiteOrigin CSS. Keep track of what's happening over on
 We offer free support on the [SiteOrigin support forums](https://siteorigin.com/thread/).
 
 == Changelog ==
+
+= 1.2.14 - 26 April 2021 =
+* Resolved Photo Gallery by 10Web plugin conflict.
+
+= 1.2.13 - 01 February 2021 =
+* Inspector: Added support for WooCommerce single product tabs.
+* Inspector: Highlight important classes when element with class is selected.
+* Restored the scrollbar in the Custom CSS content field.
+* Developer: Further changes for jQuery 3.5.
+* Developer: For WP 4.9+ use the WordPress version of CodeMirror if available.
+* Developer: Removed `socss-codemirror-show-hint` as a dependency. The script can now be removed to disable hints.
 
 = 1.2.12 - 12 December 2020 =
 * Developer: jQuery updates for WordPress 5.6.
